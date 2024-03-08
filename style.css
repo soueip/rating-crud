@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+:root{
+    --colorOrange : hsl(25, 97%, 53%);
+    --White: hsl(0, 0%, 100%);
+--LightGrey: hsl(217, 12%, 63%);
+--MediumGrey: hsl(216, 12%, 54%);
+--DarkBlue: hsl(213, 19%, 18%);
+--VeryDarkBlue: hsl(216, 12%, 8%);
+--fontBody: 15px;
+}
+*{
+    background-color: var(--VeryDarkBlue);
+    font-family: "Overpass";
+    margin: 0;
+    padding: 0;
+
+}
+h1{
+    background-color: transparent;
+    color: var(--White);
+    font-weight: 700;
+    margin-top: 30px;
+}
+p{
+    background-color: transparent;
+    color: var(--LightGrey);
+    margin-top: 25px;
+}
+.card{
+    width: 382px;
+    height: 382px;
+    background-color: var(--DarkBlue);
+    border-radius: 20px;
+    margin: 10% auto;
+    padding: 30px;
+    
+}
+.iconStar{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    background-color: hsl(211, 17%, 24%);
+}
+.iconStar svg {
+    margin: 30%;
+    background-color: transparent;
+}
+
+
+.number{
+    background-color: transparent;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.iconStar2{
+    width: 55px;
+    height: 55px;
+    border-radius: 100%;
+    background-color: hsl(211, 17%, 24%);
+    cursor: pointer;
+}
+.iconStar2 h3{
+    background-color: transparent;
+    color:var(--LightGrey);
+    text-align: center;
+    padding-top: 30%;
+
+}
+.btn{
+    margin-top: 32px;
+    width: 100%;
+    height: 45px;
+    background-color: var(--colorOrange);
+    border: 0;
+    outline: 0;
+    color: var(--White);
+    letter-spacing: 5px;
+    font-weight: 700;
+    border-radius: 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.hide{
+    display: none;
+}
+.cardDeux{
+    width: 382px;
+    height: 382px;
+    background-color: var(--DarkBlue);
+    border-radius: 20px;
+    margin: 10% auto;
+    padding: 30px;
+}
+.image {
+    background-color: transparent;
+    
+}
+.image svg{
+    background-color: transparent;
+    margin: 5% 25%;
+}
+.selected{
+    width: 60%;
+    background-color:  hsl(211, 17%, 24%) ;
+    height: 32px;
+    margin: 5% auto;
+    border-radius: 20px;
+}
+.selected h4{
+    background-color: transparent;
+    text-align: center;
+    padding: 3%;
+    color: var(--colorOrange);
+    font-weight: 400;
+}
+.selected h4 span{
+    background-color: transparent;
+}
+.cardDeux h1{
+    text-align: center;
+}
+.cardDeux p{
+    width: 95%;
+    text-align: center;
+}
+.clickedd{
+    background-color: var(--colorOrange);
+    
+}
+.clickedd h3{
+    color: var(--VeryDarkBlue);
+}
